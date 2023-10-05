@@ -19,18 +19,13 @@ Register No: 212222230051
 ```sql
 create or replace procedure insert_employee_data AS
 begin
-insert into employee (empid,empname,dept,salary)
-values (1,'john','HR',50000);
-insert into employee (empid,empname,dept,salary)
-values (2,'joe','IT',60000);
-insert into employee (empid,empname,dept,salary)
-values (3,'bob','Finance',55000);
-commit;
-end;
-/
-Procedure created.
-begin
-insert_employee_data;
+   insert into employee (empid, empname, dept, salary)
+   values (1, 'john', 'HR', 50000);
+   insert into employee (empid, empname, dept, salary)
+   values (2, 'joe', 'IT', 60000);
+   insert into employee (empid, empname, dept, salary)
+   values (3, 'bob', 'Finance', 55000);
+   commit;
 end;
 /
 ```
