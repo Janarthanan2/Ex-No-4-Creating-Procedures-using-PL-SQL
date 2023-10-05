@@ -32,7 +32,8 @@ Procedure created.
 begin
 insert_employee_data;
 end;
-/```
+/
+```
 ### Output:
 ![1](https://github.com/Janarthanan2/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119393515/d2e6b11a-b5e7-4981-8d10-e1519c624a8c)
 
