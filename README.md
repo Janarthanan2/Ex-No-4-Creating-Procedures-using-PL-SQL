@@ -12,9 +12,10 @@ To create a procedure using PL/SQL.
 6. Display the employee table
 
 ### Program:
-#### Developed by: JANARTHANAN V K
-#### Register No: 212222230051
-
+```
+Developed by: JANARTHANAN V K
+Register No: 212222230051
+```
 ```sql
 create or replace procedure insert_employee_data AS
 begin
@@ -31,9 +32,7 @@ Procedure created.
 begin
 insert_employee_data;
 end;
-/
-PL/SQL procedure successfully completed.
-```
+/```
 ### Output:
 ![1](https://github.com/Janarthanan2/Ex-No-4-Creating-Procedures-using-PL-SQL/assets/119393515/d2e6b11a-b5e7-4981-8d10-e1519c624a8c)
 
